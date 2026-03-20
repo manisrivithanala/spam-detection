@@ -119,33 +119,31 @@ initialize_resources()
 
 # ==================== ROUTES ====================
 
+# Home
 @app.route('/')
 def index():
-    """Instant Home Page"""
     return render_template('index.html')
 
+
+# Predict API
 @app.route('/predict', methods=['POST'])
 def predict():
-    """Predict message and calculate 'Testing Time'"""
     start_time = time.time()
     
     if not cache['model'] or not cache['vectorizer']:
         return jsonify({'success': False, 'error': 'Model files missing on server'}), 503
 
-    # Support JSON or Form data
     data = request.get_json() if request.is_json else request.form
     message = data.get('message', '')
 
     if not message.strip():
         return jsonify({'success': False, 'error': 'Message content is empty'}), 400
 
-    # ML Logic
     cleaned = clean_text(message)
     vec = cache['vectorizer'].transform([cleaned])
     pred = cache['model'].predict(vec)[0]
     proba = cache['model'].predict_proba(vec)[0]
     
-    # Calculate exact testing duration
     duration_ms = round((time.time() - start_time) * 1000, 2)
 
     return jsonify({
@@ -158,9 +156,10 @@ def predict():
         'timestamp': datetime.now().isoformat()
     })
 
+
+# Stats Page
 @app.route('/stats')
 def stats():
-    """Instant Stats Page (No recalculation)"""
     if not cache['dataset_stats']:
         return render_template('stats.html', error="Dataset files missing.")
         
@@ -171,19 +170,30 @@ def stats():
         visuals={'pie_chart': cache['chart_base64']}
     )
 
+
+# ✅ ADD THIS
+@app.route('/batch')
+def batch():
+    return render_template('batch.html')
+
+
+# ✅ ADD THIS
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+
+# Health check
 @app.route('/api/health')
 def health():
-    """Health check for Render monitoring"""
     return jsonify({
         'status': 'healthy',
         'model_loaded': cache['model'] is not None,
         'server_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     })
 
-# ==================== DEPLOYMENT ====================
 
+# Deployment
 if __name__ == '__main__':
-    # Use '0.0.0.0' and dynamic port for Render/Heroku compatibility
     port = int(os.environ.get("PORT", 5000))
-    # debug=False is mandatory for production speed
     app.run(host='0.0.0.0', port=port, debug=False)
