@@ -1,0 +1,935 @@
+2026-03-16 22:27:21,919 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:27:30,171 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-16 22:27:30,184 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-16 22:27:31,070 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:27:42,830 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:27:43,328 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:27:43,337 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:27:44,277 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:27:44] "GET / HTTP/1.1" 200 -
+2026-03-16 22:27:45,142 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:27:45] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-16 22:27:45,156 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:27:45] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-03-16 22:27:48,182 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:27:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-16 22:27:51,482 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\__main__.py', reloading
+2026-03-16 22:27:57,576 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:28:05,903 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:28:06,916 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:28:06,945 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:28:07,207 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:28:07] "GET /about HTTP/1.1" 200 -
+2026-03-16 22:28:07,548 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:28:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:28:07,618 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:28:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-16 22:28:21,718 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:28:21] "GET / HTTP/1.1" 200 -
+2026-03-16 22:28:21,993 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:28:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:28:22,036 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:28:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-16 22:28:26,955 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\AppData\\Roaming\\Python\\Python313\\site-packages\\seaborn\\colors\\xkcd_rgb.py', reloading
+2026-03-16 22:28:28,712 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:29:19,348 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:29:27,477 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:29:27,529 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:30:00,588 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\itsdangerous\\__init__.py', reloading
+2026-03-16 22:30:01,197 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\itsdangerous\\_json.py', reloading
+2026-03-16 22:30:09,548 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:31:31,235 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:31:38,601 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:31:38,610 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:31:39,122 - __main__ - INFO - Prediction made: spam (79.97% confidence)
+2026-03-16 22:31:39,124 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:31:39] "POST /predict HTTP/1.1" 200 -
+2026-03-16 22:31:45,636 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\jinja2\\bccache.py', reloading
+2026-03-16 22:31:46,136 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:32:02,267 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:32:10,396 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:32:10,408 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:32:11,411 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\numpy_pickle_utils.py', reloading
+2026-03-16 22:32:11,775 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:32:11] "GET / HTTP/1.1" 200 -
+2026-03-16 22:32:12,016 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\numpy_pickle_compat.py', reloading
+2026-03-16 22:32:13,079 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:32:18,502 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:32:19,024 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:32:19,028 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:32:19,551 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:32:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:32:19,555 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:32:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-16 22:32:30,145 - __main__ - INFO - Prediction made: ham (76.69% confidence)
+2026-03-16 22:32:30,146 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:32:30] "POST /predict HTTP/1.1" 200 -
+2026-03-16 22:32:36,944 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:32:36] "GET /batch HTTP/1.1" 200 -
+2026-03-16 22:32:37,027 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:32:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:32:37,043 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:32:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-16 22:32:39,338 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\numpy_pickle.py', reloading
+2026-03-16 22:32:39,860 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:32:45,340 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:32:45,635 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:32:45,641 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:32:49,672 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\__init__.py', reloading
+2026-03-16 22:32:51,275 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:32:57,424 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:32:57,745 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:32:57,752 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:32:59,213 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\markupsafe\\__init__.py', reloading
+2026-03-16 22:32:59,718 - __main__ - ERROR - Stats page error: 'spam' is undefined
+2026-03-16 22:33:00,042 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\AppData\\Roaming\\Python\\Python313\\site-packages\\flask\\app.py', reloading
+2026-03-16 22:33:00,089 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\AppData\\Roaming\\Python\\Python313\\site-packages\\flask\\templating.py', reloading
+2026-03-16 22:33:00,325 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\AppData\\Roaming\\Python\\Python313\\site-packages\\jinja2\\environment.py', reloading
+2026-03-16 22:33:00,381 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\markupsafe\\_native.py', reloading
+2026-03-16 22:33:00,412 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:33:00] "[35m[1mGET /stats HTTP/1.1[0m" 500 -
+2026-03-16 22:33:01,118 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:33:06,316 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:33:06,606 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:33:06,612 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:33:06,900 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:33:06] "GET /stats?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-16 22:33:07,575 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\_tight_layout.py', reloading
+2026-03-16 22:33:08,454 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:33:14,174 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:33:14,473 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:33:14,483 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:33:14,762 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:33:14] "GET /stats?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-16 22:33:14,769 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:33:14] "GET /stats?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-16 22:33:15,689 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:33:15] "[36mGET /stats?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-16 22:33:16,591 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py', reloading
+2026-03-16 22:33:17,360 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:33:24,237 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:33:24,543 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:33:24,548 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:33:25,770 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\_afm.py', reloading
+2026-03-16 22:33:26,245 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:33:31,403 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:33:31,679 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:33:31,683 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:33:31,858 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\text.py', reloading
+2026-03-16 22:33:31,963 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\texmanager.py', reloading
+2026-03-16 22:33:32,731 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\table.py', reloading
+2026-03-16 22:33:33,480 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:33:38,299 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:33:38,589 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:33:38,593 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:33:44,392 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\pyplot.py', reloading
+2026-03-16 22:33:44,987 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\path.py', reloading
+2026-03-16 22:33:45,767 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:33:52,358 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:33:52,886 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:33:52,899 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:33:53,592 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:33:53] "GET /about HTTP/1.1" 200 -
+2026-03-16 22:33:53,870 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:33:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:33:53,880 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:33:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-16 22:33:55,306 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\font_manager.py', reloading
+2026-03-16 22:33:56,514 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:34:03,106 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:34:03,686 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:34:03,692 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:34:05,133 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\colorbar.py', reloading
+2026-03-16 22:34:05,950 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:34:11,624 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:34:11,951 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:34:11,959 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:34:12,427 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\axis.py', reloading
+2026-03-16 22:34:12,950 - __main__ - ERROR - Stats page error: 'spam' is undefined
+2026-03-16 22:34:13,040 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:34:13] "[35m[1mGET /stats HTTP/1.1[0m" 500 -
+2026-03-16 22:34:13,319 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:34:13] "[36mGET /stats?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:34:13,345 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:34:13] "[36mGET /stats?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-16 22:34:13,378 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:34:13] "[36mGET /stats?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-16 22:34:14,091 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:34:21,031 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:34:21,398 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:34:21,405 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:34:29,309 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\__init__.py', reloading
+2026-03-16 22:34:29,390 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\_version_meson.py', reloading
+2026-03-16 22:34:29,493 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\_version.py', reloading
+2026-03-16 22:34:29,590 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\_typing.py', reloading
+2026-03-16 22:34:29,819 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\testing.py', reloading
+2026-03-16 22:34:30,270 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\conftest.py', reloading
+2026-03-16 22:34:31,055 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:34:36,638 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:34:37,021 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:34:37,026 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:34:42,470 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\__init__.py', reloading
+2026-03-16 22:34:43,277 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:34:48,825 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:34:49,142 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:34:49,148 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:34:49,625 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\__init__.py', reloading
+2026-03-16 22:34:49,940 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\_min_dependencies.py', reloading
+2026-03-16 22:34:51,038 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:34:56,583 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:34:56,859 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:34:56,868 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:34:57,652 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2026-03-16 22:34:57,780 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\user_agent.py', reloading
+2026-03-16 22:34:58,108 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\urls.py', reloading
+2026-03-16 22:34:58,747 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:35:05,075 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:35:05,364 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:35:05,370 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:35:05,976 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\http.py', reloading
+2026-03-16 22:35:06,262 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\formparser.py', reloading
+2026-03-16 22:35:07,133 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:35:16,570 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:35:17,153 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:35:17,162 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:35:17,583 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\colorama\\tests\\winterm_test.py', reloading
+2026-03-16 22:35:17,901 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\colorama\\tests\\utils.py', reloading
+2026-03-16 22:35:18,411 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\colorama\\tests\\isatty_test.py', reloading
+2026-03-16 22:35:19,416 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:35:31,189 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:35:32,213 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:35:32,222 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:35:36,241 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\dateutil\\parser\\__init__.py', reloading
+2026-03-16 22:35:36,476 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\dateutil\\parser\\_parser.py', reloading
+2026-03-16 22:35:37,358 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:35:46,751 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:35:47,227 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:35:47,233 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:35:49,808 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2026-03-16 22:35:50,439 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:35:58,209 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:35:58,608 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:35:58,615 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:36:01,796 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\cffLib\\__init__.py', reloading
+2026-03-16 22:36:02,689 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:36:08,323 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:36:08,589 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:36:08,598 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:36:16,789 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2026-03-16 22:36:17,172 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2026-03-16 22:36:17,363 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2026-03-16 22:36:18,568 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:36:25,646 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:36:25,944 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:36:25,952 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:36:26,717 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\feaLib\\lexer.py', reloading
+2026-03-16 22:36:27,798 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:36:35,445 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:36:35,762 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:36:35,769 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:36:36,228 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\sstruct.py', reloading
+2026-03-16 22:36:36,329 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\roundTools.py', reloading
+2026-03-16 22:36:36,505 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\py23.py', reloading
+2026-03-16 22:36:36,835 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\psOperators.py', reloading
+2026-03-16 22:36:38,069 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:36:43,991 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:36:44,332 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:36:44,344 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:36:44,676 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\pens\\__init__.py', reloading
+2026-03-16 22:36:45,098 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\pens\\wxPen.py', reloading
+2026-03-16 22:36:45,404 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\pens\\ttGlyphPen.py', reloading
+2026-03-16 22:36:46,193 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:36:56,603 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:36:56,989 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:36:56,998 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:36:58,215 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\pens\\cu2quPen.py', reloading
+2026-03-16 22:36:59,232 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:37:05,618 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:37:06,077 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:37:06,087 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:37:06,357 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\t1Lib\\__init__.py', reloading
+2026-03-16 22:37:06,587 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\__main__.py', reloading
+2026-03-16 22:37:06,972 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\__init__.py', reloading
+2026-03-16 22:37:08,058 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:37:26,287 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:37:27,584 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-16 22:37:27,591 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-16 22:37:27,635 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:37:33,682 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:37:34,062 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:37:34,066 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:37:34,855 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\voltLib\\__main__.py', reloading
+2026-03-16 22:37:35,131 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\voltLib\\__init__.py', reloading
+2026-03-16 22:37:35,922 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:37:44,765 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:37:45,023 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:37:45,028 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:37:57,701 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:37:57] "GET / HTTP/1.1" 200 -
+2026-03-16 22:37:58,158 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:37:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-16 22:38:01,757 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:38:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-16 22:38:02,084 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:38:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-16 22:38:02,652 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:38:02] "GET /about HTTP/1.1" 200 -
+2026-03-16 22:38:02,708 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:38:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:38:02,710 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:38:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-16 22:38:03,355 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\externals\\__init__.py', reloading
+2026-03-16 22:38:06,641 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:38:44,791 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:38:45,080 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:38:45,086 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:38:45,626 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\config\\__init__.py', reloading
+2026-03-16 22:38:46,678 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\cu2qu\\__main__.py', reloading
+2026-03-16 22:38:46,922 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\cu2qu\\__init__.py', reloading
+2026-03-16 22:38:47,890 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:38:53,164 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:38:53,440 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:38:53,449 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:38:53,621 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\__init__.py', reloading
+2026-03-16 22:38:53,780 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\xmlWriter.py', reloading
+2026-03-16 22:38:53,919 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\xmlReader.py', reloading
+2026-03-16 22:38:54,434 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\visitor.py', reloading
+2026-03-16 22:38:54,683 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\vector.py', reloading
+2026-03-16 22:38:54,706 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\treeTools.py', reloading
+2026-03-16 22:38:54,783 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\transform.py', reloading
+2026-03-16 22:38:54,954 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\textTools.py', reloading
+2026-03-16 22:38:55,345 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\timeTools.py', reloading
+2026-03-16 22:38:55,414 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\testTools.py', reloading
+2026-03-16 22:38:55,717 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\symfont.py', reloading
+2026-03-16 22:38:56,483 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:39:02,000 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:39:02,273 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:39:02,277 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:39:03,508 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:39:03] "GET /batch HTTP/1.1" 200 -
+2026-03-16 22:39:03,777 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:39:03] "GET /stats HTTP/1.1" 200 -
+2026-03-16 22:39:03,804 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:39:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-16 22:39:03,805 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:39:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:39:09,100 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:39:09] "GET /stats HTTP/1.1" 200 -
+2026-03-16 22:39:09,160 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:39:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-16 22:39:09,167 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:39:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:39:19,585 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\test\\__init__.py', reloading
+2026-03-16 22:39:19,972 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\test\\test_utils.py', reloading
+2026-03-16 22:39:21,079 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:39:26,359 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:39:26,719 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:39:26,724 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:39:27,072 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\test\\test_hashing.py', reloading
+2026-03-16 22:39:27,643 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\test\\test_func_inspect_special_encoding.py', reloading
+2026-03-16 22:39:28,962 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:39:36,231 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:39:36,558 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:39:36,562 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:39:49,136 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\axes\\__init__.py', reloading
+2026-03-16 22:39:50,520 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:39:56,497 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:39:56,877 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:39:56,885 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:40:02,629 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\backends\\_backend_tk.py', reloading
+2026-03-16 22:40:03,366 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:40:12,816 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:40:13,211 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:40:13,218 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:40:15,281 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\backends\\backend_qtcairo.py', reloading
+2026-03-16 22:40:15,676 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\backends\\backend_qtagg.py', reloading
+2026-03-16 22:40:16,904 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:40:24,355 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:40:24,603 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:40:24,609 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:40:27,187 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\backends\\backend_gtk3cairo.py', reloading
+2026-03-16 22:40:27,719 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\backends\\backend_gtk3agg.py', reloading
+2026-03-16 22:40:28,738 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:40:36,140 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:40:36,440 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:40:36,448 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:40:44,780 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\sphinxext\\roles.py', reloading
+2026-03-16 22:40:45,355 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\sphinxext\\plot_directive.py', reloading
+2026-03-16 22:40:45,990 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:40:53,839 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:40:54,168 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:40:54,172 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:40:55,304 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_triangulation.py', reloading
+2026-03-16 22:40:55,837 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:41:03,309 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:41:03,549 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:41:03,555 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:41:04,006 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_skew.py', reloading
+2026-03-16 22:41:04,514 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_simplification.py', reloading
+2026-03-16 22:41:04,736 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_scale.py', reloading
+2026-03-16 22:41:05,295 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:41:11,302 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:41:11,903 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:41:11,907 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:41:12,755 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_png.py', reloading
+2026-03-16 22:41:13,417 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_pickle.py', reloading
+2026-03-16 22:41:13,911 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:41:21,511 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:41:21,772 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:41:21,777 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:41:22,011 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_gridspec.py', reloading
+2026-03-16 22:41:23,528 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:41:28,564 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:41:28,920 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:41:28,924 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:41:29,328 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_contour.py', reloading
+2026-03-16 22:41:30,012 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_container.py', reloading
+2026-03-16 22:41:30,661 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:41:35,706 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:41:35,983 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:41:35,990 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:41:36,238 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_backend_tk.py', reloading
+2026-03-16 22:41:36,822 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_backend_template.py', reloading
+2026-03-16 22:41:37,729 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:41:42,436 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:41:42,695 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:41:42,699 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:41:43,466 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_axes.py', reloading
+2026-03-16 22:41:43,796 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tests\\test_artist.py', reloading
+2026-03-16 22:41:44,603 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:41:49,181 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:41:49,424 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:41:49,430 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:41:50,009 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tri\\_tripcolor.py', reloading
+2026-03-16 22:41:50,150 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\matplotlib\\tri\\_triinterpolate.py', reloading
+2026-03-16 22:41:51,123 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:41:57,566 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:41:57,827 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:41:57,835 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:42:31,699 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\mpl_toolkits\\axes_grid1\\__init__.py', reloading
+2026-03-16 22:42:32,458 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:42:37,459 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:42:37,750 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:42:37,754 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:42:38,042 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\mpl_toolkits\\axes_grid1\\anchored_artists.py', reloading
+2026-03-16 22:42:38,323 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\mpl_toolkits\\axisartist\\__init__.py', reloading
+2026-03-16 22:42:38,658 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\mpl_toolkits\\axisartist\\parasite_axes.py', reloading
+2026-03-16 22:42:38,787 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\mpl_toolkits\\axisartist\\grid_helper_curvelinear.py', reloading
+2026-03-16 22:42:39,460 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:42:44,198 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:42:44,452 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:42:44,456 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:42:45,419 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\api\\__init__.py', reloading
+2026-03-16 22:42:46,178 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:42:50,979 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:42:51,298 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:42:51,305 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:44:14,406 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\core\\sorting.py', reloading
+2026-03-16 22:44:14,959 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\core\\shared_docs.py', reloading
+2026-03-16 22:44:27,191 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:46:04,411 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:46:11,410 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:46:11,594 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:46:54,533 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\_testing\\__init__.py', reloading
+2026-03-16 22:46:54,864 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\_testing\\_warnings.py', reloading
+2026-03-16 22:46:55,103 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\pandas\\_testing\\_hypothesis.py', reloading
+2026-03-16 22:46:58,815 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:48:10,145 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:48:14,954 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:48:15,462 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:48:16,679 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\io\\_netcdf.py', reloading
+2026-03-16 22:48:16,963 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\io\\_mmio.py', reloading
+2026-03-16 22:48:17,076 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\io\\_idl.py', reloading
+2026-03-16 22:48:26,997 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:49:20,021 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:49:20,437 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:49:20,443 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:49:21,368 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\ndimage\\morphology.py', reloading
+2026-03-16 22:49:21,563 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\ndimage\\measurements.py', reloading
+2026-03-16 22:49:22,214 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:49:31,030 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:49:31,384 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:49:31,398 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:49:32,696 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_krylov.py', reloading
+2026-03-16 22:49:32,814 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_exact.py', reloading
+2026-03-16 22:49:33,148 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion_dogleg.py', reloading
+2026-03-16 22:49:33,593 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\optimize\\_trustregion.py', reloading
+2026-03-16 22:49:34,689 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:49:43,077 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:49:43,467 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:49:43,471 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:49:44,353 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\optimize\\_linprog_simplex.py', reloading
+2026-03-16 22:49:44,632 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\optimize\\_linprog_rs.py', reloading
+2026-03-16 22:49:45,228 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:49:52,211 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:49:52,477 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:49:52,482 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:49:53,639 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\optimize\\_differentialevolution.py', reloading
+2026-03-16 22:49:54,243 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:50:01,556 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:50:01,857 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:50:01,862 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:50:02,528 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\optimize\\zeros.py', reloading
+2026-03-16 22:50:03,171 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\optimize\\tnc.py', reloading
+2026-03-16 22:50:04,109 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:50:12,772 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:50:13,185 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:50:13,193 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:50:15,780 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\optimize\\cobyla.py', reloading
+2026-03-16 22:50:17,804 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:50:30,342 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:50:31,047 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:50:31,056 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:50:34,742 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\signal\\_signal_api.py', reloading
+2026-03-16 22:50:35,248 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:50:42,978 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:50:43,226 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:50:43,230 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:50:47,010 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\signal\\_peak_finding.py', reloading
+2026-03-16 22:50:48,296 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:50:54,314 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:50:54,594 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:50:54,598 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:50:56,937 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\signal\\_filter_design.py', reloading
+2026-03-16 22:50:58,491 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:51:05,210 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:51:05,538 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:51:05,543 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:51:06,138 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\signal\\ltisys.py', reloading
+2026-03-16 22:51:07,331 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:51:14,169 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:51:14,690 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:51:14,697 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:51:15,669 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\sparse\\_lil.py', reloading
+2026-03-16 22:51:16,640 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:51:22,088 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:51:22,371 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:51:22,375 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:51:22,774 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\sparse\\_csr.py', reloading
+2026-03-16 22:51:22,865 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:51:22] "GET / HTTP/1.1" 200 -
+2026-03-16 22:51:23,219 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:51:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:51:23,221 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:51:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-16 22:51:24,217 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:51:33,412 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:51:33,763 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:51:33,769 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:51:34,443 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\sparse\\dia.py', reloading
+2026-03-16 22:51:34,487 - __main__ - INFO - Prediction made: ham (54.29% confidence)
+2026-03-16 22:51:34,488 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:51:34] "POST /predict HTTP/1.1" 200 -
+2026-03-16 22:51:34,952 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\sparse\\data.py', reloading
+2026-03-16 22:51:36,040 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:51:43,752 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:51:44,265 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:51:44,272 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:51:44,567 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\spatial\\_spherical_voronoi.py', reloading
+2026-03-16 22:51:45,955 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:51:51,954 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:51:52,304 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:51:52,308 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:51:52,508 - __main__ - INFO - Prediction made: ham (54.29% confidence)
+2026-03-16 22:51:52,509 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:51:52] "POST /predict HTTP/1.1" 200 -
+2026-03-16 22:51:56,339 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\spatial\\qhull.py', reloading
+2026-03-16 22:51:57,464 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:52:03,807 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:52:04,131 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:52:04,144 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:52:04,314 - __main__ - INFO - Prediction made: ham (54.29% confidence)
+2026-03-16 22:52:04,316 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:52:04] "POST /predict HTTP/1.1" 200 -
+2026-03-16 22:52:06,956 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\special\\_testutils.py', reloading
+2026-03-16 22:52:08,225 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:52:15,135 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:52:15,715 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:52:15,719 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:52:16,354 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\special\\_lambertw.py', reloading
+2026-03-16 22:52:16,633 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\special\\_input_validation.py', reloading
+2026-03-16 22:52:17,844 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:52:25,490 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:52:25,760 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:52:25,771 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:52:28,186 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\special\\basic.py', reloading
+2026-03-16 22:52:28,756 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\special\\add_newdocs.py', reloading
+2026-03-16 22:52:29,750 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:52:37,281 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:52:38,084 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:52:38,091 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:52:42,732 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\stats\\_sensitivity_analysis.py', reloading
+2026-03-16 22:52:43,386 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\stats\\_sampling.py', reloading
+2026-03-16 22:52:44,287 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:52:51,211 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:52:51,572 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:52:51,580 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:52:51,946 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\stats\\_page_trend_test.py', reloading
+2026-03-16 22:52:53,265 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:52:59,143 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:52:59,458 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:52:59,465 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:53:01,007 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\stats\\_ksstats.py', reloading
+2026-03-16 22:53:02,306 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:53:10,120 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:53:10,366 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:53:10,373 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:53:10,542 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\stats\\_distn_infrastructure.py', reloading
+2026-03-16 22:53:12,069 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:53:21,133 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:53:21,560 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:53:21,566 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:53:23,317 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\stats\\_binned_statistic.py', reloading
+2026-03-16 22:53:24,333 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:53:30,593 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:53:30,830 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:53:30,835 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:53:31,385 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\stats\\mstats_extras.py', reloading
+2026-03-16 22:53:31,998 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\stats\\mstats_basic.py', reloading
+2026-03-16 22:53:32,505 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:53:38,928 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:53:39,527 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:53:39,531 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:53:41,234 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\_lib\\_util.py', reloading
+2026-03-16 22:53:42,357 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:53:47,427 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:53:47,685 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:53:47,691 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:53:48,611 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\_lib\\_sparse.py', reloading
+2026-03-16 22:53:49,399 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:53:55,009 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:53:55,300 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:53:55,304 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:53:55,507 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\_lib\\_bunch.py', reloading
+2026-03-16 22:53:56,052 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\_lib\\_array_api_override.py', reloading
+2026-03-16 22:53:57,176 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:54:02,451 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:54:02,791 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:54:02,800 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:54:03,074 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\scipy\\_lib\\_array_api.py', reloading
+2026-03-16 22:54:04,532 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:54:18,014 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:54:18,581 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:54:18,585 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:54:19,482 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\click\\_compat.py', reloading
+2026-03-16 22:54:19,670 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\click\\_termui_impl.py', reloading
+2026-03-16 22:54:19,762 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\click\\_textwrap.py', reloading
+2026-03-16 22:54:19,871 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\click\\_utils.py', reloading
+2026-03-16 22:54:20,849 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:54:28,687 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:54:29,589 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:54:29,600 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:54:30,078 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\contourpy\\util\\bokeh_util.py', reloading
+2026-03-16 22:54:30,154 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\contourpy\\util\\data.py', reloading
+2026-03-16 22:54:30,238 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\contourpy\\util\\mpl_renderer.py', reloading
+2026-03-16 22:54:30,328 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\contourpy\\util\\mpl_util.py', reloading
+2026-03-16 22:54:30,401 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\contourpy\\util\\renderer.py', reloading
+2026-03-16 22:54:31,655 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:54:39,659 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:54:40,406 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:54:40,413 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:54:45,124 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\cluster\\_kmeans.py', reloading
+2026-03-16 22:54:46,257 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:54:53,320 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:54:53,614 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:54:53,621 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:54:54,245 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\compose\\__init__.py', reloading
+2026-03-16 22:54:54,787 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\compose\\_target.py', reloading
+2026-03-16 22:54:55,510 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:55:03,893 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:55:04,251 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:55:04,257 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:55:04,449 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_h_h_e_a.py', reloading
+2026-03-16 22:55:04,597 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_h_m_t_x.py', reloading
+2026-03-16 22:55:04,720 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_k_e_r_n.py', reloading
+2026-03-16 22:55:04,722 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_l_c_a_r.py', reloading
+2026-03-16 22:55:04,990 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_l_o_c_a.py', reloading
+2026-03-16 22:55:05,113 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_l_t_a_g.py', reloading
+2026-03-16 22:55:05,130 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_m_a_x_p.py', reloading
+2026-03-16 22:55:05,315 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_m_e_t_a.py', reloading
+2026-03-16 22:55:05,319 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_m_o_r_t.py', reloading
+2026-03-16 22:55:05,333 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_m_o_r_x.py', reloading
+2026-03-16 22:55:05,422 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\datasets\\_species_distributions.py', reloading
+2026-03-16 22:55:05,512 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_n_a_m_e.py', reloading
+2026-03-16 22:55:05,514 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_o_p_b_d.py', reloading
+2026-03-16 22:55:06,173 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:55:12,846 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:55:13,258 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:55:13,264 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:55:13,555 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\datasets\\_arff_parser.py', reloading
+2026-03-16 22:55:14,408 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\decomposition\\__init__.py', reloading
+2026-03-16 22:55:15,242 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:55:25,969 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:55:26,348 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:55:26,356 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:55:26,976 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\jinja2\\constants.py', reloading
+2026-03-16 22:55:27,041 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\jinja2\\debug.py', reloading
+2026-03-16 22:55:27,335 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\jinja2\\defaults.py', reloading
+2026-03-16 22:55:27,544 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\jinja2\\exceptions.py', reloading
+2026-03-16 22:55:27,624 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\jinja2\\ext.py', reloading
+2026-03-16 22:55:28,413 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:55:35,579 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:55:39,163 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:55:39,168 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-16 22:55:41,228 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\__init__.py', reloading
+2026-03-16 22:55:41,428 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\_posix_reduction.py', reloading
+2026-03-16 22:55:41,474 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\_win_reduction.py', reloading
+2026-03-16 22:55:41,629 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\context.py', reloading
+2026-03-16 22:55:42,212 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-16 22:55:51,374 - __main__ - INFO - Loading model and vectorizer...
+2026-03-16 22:55:51,894 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:55:51,903 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:22:55,506 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:23:08,863 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-18 18:23:08,865 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-18 18:23:09,160 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:23:13,593 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:23:13,844 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:23:13,943 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:23:32,471 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:23:32,760 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-18 18:23:32,762 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-18 18:23:32,782 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:23:38,948 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:23:39,662 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:23:39,668 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:23:53,836 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_bayes.py', reloading
+2026-03-18 18:23:53,839 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_bayes.py', reloading
+2026-03-18 18:23:54,130 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\linear_model\\_base.py', reloading
+2026-03-18 18:24:03,948 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:24:03,949 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:24:10,182 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:24:10,598 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:24:10,603 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:24:11,693 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:24:11,942 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:24:11,946 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:24:12,614 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_classification.py', reloading
+2026-03-18 18:24:12,615 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_classification.py', reloading
+2026-03-18 18:24:12,907 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_base.py', reloading
+2026-03-18 18:24:12,907 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\metrics\\_base.py', reloading
+2026-03-18 18:24:13,684 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:24:13,819 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:24:20,655 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:24:21,062 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:24:21,070 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:24:21,220 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:24:22,194 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:24:22,205 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:24:23,391 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_split.py', reloading
+2026-03-18 18:24:24,134 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:24:25,219 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:24:32,667 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:24:33,006 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:24:33,076 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:24:33,083 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:24:34,226 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:24:34,234 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:24:47,211 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\__init__.py', reloading
+2026-03-18 18:24:47,292 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2026 18:24:47] "GET / HTTP/1.1" 200 -
+2026-03-18 18:24:47,294 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\__init__.py', reloading
+2026-03-18 18:24:49,473 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:24:49,550 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:24:56,164 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:24:56,523 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:24:56,527 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:24:56,730 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:24:57,082 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:24:57,086 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:24:57,353 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2026 18:24:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-18 18:24:57,447 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2026 18:24:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-18 18:25:03,724 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_nearest_centroid.py', reloading
+2026-03-18 18:25:03,725 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_nearest_centroid.py', reloading
+2026-03-18 18:25:04,364 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:05,060 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:10,726 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:25:10,862 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:25:11,080 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:25:11,087 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:25:11,391 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:25:11,395 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:25:15,298 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_kde.py', reloading
+2026-03-18 18:25:15,303 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_kde.py', reloading
+2026-03-18 18:25:16,286 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:16,489 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:22,339 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:25:22,537 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:25:22,675 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:25:22,680 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:25:22,897 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:25:22,903 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:25:25,239 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_base.py', reloading
+2026-03-18 18:25:25,240 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neighbors\\_base.py', reloading
+2026-03-18 18:25:26,795 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:26,937 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:32,687 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:25:32,839 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:25:33,031 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:25:33,037 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:25:33,203 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:25:33,219 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:25:33,937 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neural_network\\_multilayer_perceptron.py', reloading
+2026-03-18 18:25:33,938 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neural_network\\_multilayer_perceptron.py', reloading
+2026-03-18 18:25:34,987 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:35,103 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:41,307 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:25:41,404 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:25:41,663 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:25:41,672 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:25:41,780 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:25:41,786 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:25:42,162 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_label.py', reloading
+2026-03-18 18:25:42,164 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_label.py', reloading
+2026-03-18 18:25:43,588 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:43,703 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:49,703 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:25:49,853 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:25:50,043 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:25:50,051 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:25:50,189 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:25:50,195 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:25:52,500 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\semi_supervised\\__init__.py', reloading
+2026-03-18 18:25:52,500 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\semi_supervised\\__init__.py', reloading
+2026-03-18 18:25:53,066 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:53,134 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\semi_supervised\\_self_training.py', reloading
+2026-03-18 18:25:54,318 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:25:59,432 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:25:59,763 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:25:59,769 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:26:00,509 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:26:00,803 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:26:00,807 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:26:11,436 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\svm\\_classes.py', reloading
+2026-03-18 18:26:11,437 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\svm\\_classes.py', reloading
+2026-03-18 18:26:12,724 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:26:13,601 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:26:19,339 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:26:19,411 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:26:19,689 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:26:19,697 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:26:19,771 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:26:19,776 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:26:30,614 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2026 18:26:30] "GET /stats HTTP/1.1" 200 -
+2026-03-18 18:26:36,822 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2026 18:26:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-18 18:26:36,830 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2026 18:26:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-03-18 18:28:36,442 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\tests\\test_random_projection.py', reloading
+2026-03-18 18:28:36,442 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\tests\\test_random_projection.py', reloading
+2026-03-18 18:29:00,957 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:29:01,206 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:30:15,554 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:30:15,555 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:30:19,070 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:30:19,071 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:30:19,493 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:30:29,171 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\tree\\_export.py', reloading
+2026-03-18 18:30:29,171 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\tree\\_export.py', reloading
+2026-03-18 18:31:02,718 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:31:02,721 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:35:02,905 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:35:11,929 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:35:11,931 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:35:12,378 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:35:12,378 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:35:18,524 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\utils\\_show_versions.py', reloading
+2026-03-18 18:35:18,525 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\utils\\_show_versions.py', reloading
+2026-03-18 18:35:28,336 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:35:28,338 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:36:55,153 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:36:56,488 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:36:56,494 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:37:37,829 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\_build_utils\\version.py', reloading
+2026-03-18 18:37:37,831 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\_build_utils\\version.py', reloading
+2026-03-18 18:37:38,857 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:37:38,886 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:37:46,478 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:37:46,553 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:37:46,784 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:37:46,789 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:37:46,871 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:37:46,879 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:38:09,674 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2026-03-18 18:38:09,675 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2026-03-18 18:38:10,231 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2026-03-18 18:38:10,364 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:38:11,227 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:38:16,224 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:38:16,537 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:38:16,541 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:38:16,634 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:38:16,704 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\debug\\tbtools.py', reloading
+2026-03-18 18:38:16,873 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:38:16,879 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:38:16,916 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\debug\\repr.py', reloading
+2026-03-18 18:38:17,247 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\debug\\console.py', reloading
+2026-03-18 18:38:17,249 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\debug\\console.py', reloading
+2026-03-18 18:38:17,704 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\middleware\\__init__.py', reloading
+2026-03-18 18:38:17,704 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\middleware\\__init__.py', reloading
+2026-03-18 18:38:17,937 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\middleware\\shared_data.py', reloading
+2026-03-18 18:38:18,294 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:38:18,783 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:38:24,603 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:38:24,837 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:38:24,993 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:38:25,001 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:38:26,323 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:38:26,329 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:38:40,782 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2026-03-18 18:38:40,782 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2026-03-18 18:38:40,964 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2026-03-18 18:38:41,630 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:38:41,998 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:38:46,746 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:38:47,022 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:38:47,026 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:38:47,081 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:38:47,353 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:38:47,359 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:38:47,472 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\middleware\\profiler.py', reloading
+2026-03-18 18:38:48,393 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\middleware\\lint.py', reloading
+2026-03-18 18:38:48,750 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:38:49,124 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:38:53,805 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:38:54,059 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:38:54,064 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:38:54,181 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:38:54,389 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\routing\\exceptions.py', reloading
+2026-03-18 18:38:54,445 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:38:54,449 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:38:54,677 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\routing\\converters.py', reloading
+2026-03-18 18:38:54,679 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\routing\\converters.py', reloading
+2026-03-18 18:38:55,178 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\__init__.py', reloading
+2026-03-18 18:38:55,179 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\__init__.py', reloading
+2026-03-18 18:38:55,854 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:38:56,334 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:39:01,177 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:39:01,551 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:39:01,706 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:39:01,714 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:39:02,158 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:39:02,166 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:39:03,174 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2026-03-18 18:39:03,175 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2026-03-18 18:39:03,672 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2026-03-18 18:39:04,296 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:39:05,055 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:39:10,587 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:39:10,995 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:39:11,002 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:39:11,271 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:39:11,565 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:39:11,571 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:40:13,623 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\filesystem\\__init__.py', reloading
+2026-03-18 18:40:13,625 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\filesystem\\__init__.py', reloading
+2026-03-18 18:40:14,012 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\misc\\filesystem\\_zipfs.py', reloading
+2026-03-18 18:40:14,467 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:40:14,844 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:40:20,278 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:40:20,409 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:40:20,567 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:40:20,576 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:40:20,726 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:40:20,732 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:40:24,785 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2026-03-18 18:40:24,786 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2026-03-18 18:40:24,911 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2026-03-18 18:40:24,911 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2026-03-18 18:40:25,711 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:40:25,809 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:40:33,886 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:40:34,086 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:40:34,195 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:40:34,202 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:40:34,374 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:40:34,379 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:40:57,319 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\otlLib\\optimize\\__main__.py', reloading
+2026-03-18 18:40:57,319 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\otlLib\\optimize\\__main__.py', reloading
+2026-03-18 18:40:58,046 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:40:58,049 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:41:03,194 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:41:03,227 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:41:03,572 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:41:03,580 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:41:03,621 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:41:03,639 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:41:14,375 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\svgLib\\path\\__init__.py', reloading
+2026-03-18 18:41:14,376 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\svgLib\\path\\__init__.py', reloading
+2026-03-18 18:41:14,576 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\svgLib\\path\\shapes.py', reloading
+2026-03-18 18:41:14,577 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\svgLib\\path\\shapes.py', reloading
+2026-03-18 18:41:15,061 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\svgLib\\path\\parser.py', reloading
+2026-03-18 18:41:15,061 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\svgLib\\path\\parser.py', reloading
+2026-03-18 18:41:15,313 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\svgLib\\path\\arc.py', reloading
+2026-03-18 18:41:15,314 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\svgLib\\path\\arc.py', reloading
+2026-03-18 18:41:16,331 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:41:16,650 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:41:26,160 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:41:26,461 - __main__ - INFO - Loading model and vectorizer...
+2026-03-18 18:41:28,232 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:41:28,249 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:41:28,259 - werkzeug - WARNING -  * Debugger is active!
+2026-03-18 18:41:28,266 - werkzeug - INFO -  * Debugger PIN: 134-265-789
+2026-03-18 18:41:28,554 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neural_network\\_base.py', reloading
+2026-03-18 18:41:28,556 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\neural_network\\_base.py', reloading
+2026-03-18 18:41:28,628 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\__init__.py', reloading
+2026-03-18 18:41:28,628 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\__init__.py', reloading
+2026-03-18 18:41:28,841 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_l_t_a_g.py', reloading
+2026-03-18 18:41:28,842 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\fontTools\\ttLib\\tables\\_l_t_a_g.py', reloading
+2026-03-18 18:41:28,908 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_target_encoder.py', reloading
+2026-03-18 18:41:28,912 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_target_encoder.py', reloading
+2026-03-18 18:41:29,574 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_polynomial.py', reloading
+2026-03-18 18:41:29,574 - werkzeug - INFO -  * Detected change in 'C:\\Users\\manisri\\OneDrive\\Desktop\\spam detection\\.venv\\Lib\\site-packages\\sklearn\\preprocessing\\_polynomial.py', reloading
+2026-03-18 18:41:30,191 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-18 18:41:30,464 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)

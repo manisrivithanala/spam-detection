@@ -1,0 +1,179 @@
+{% extends "base.html" %}
+{% block title %}About - Spam Detector{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center animate__animated animate__fadeIn">
+    <div class="col-lg-10">
+        <!-- Hero Section -->
+        <div class="card text-center mb-5" style="background: linear-gradient(135deg, #1e2429, #0a0c10);">
+            <div class="card-body" style="padding: 3rem;">
+                <i class="fas fa-shield-alt" style="font-size: 4rem; color: #2d7aff; margin-bottom: 1.5rem;"></i>
+                <h1 style="color: #e6edf3; font-size: 2.5rem; margin-bottom: 1rem;">About SpamShield AI</h1>
+                <p style="color: #9aa7b4; font-size: 1.2rem; max-width: 700px; margin: 0 auto;">
+                    An intelligent spam detection system powered by Machine Learning 
+                    to protect your inbox from unwanted messages.
+                </p>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div style="background: #2d7aff20; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                            <i class="fas fa-robot" style="font-size: 2.5rem; color: #2d7aff;"></i>
+                        </div>
+                        <h3 style="color: #e6edf3; margin-bottom: 1rem;">AI Powered</h3>
+                        <p style="color: #9aa7b4;">Uses Naive Bayes algorithm with TF-IDF vectorization for accurate spam detection</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div style="background: #2ecc7120; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                            <i class="fas fa-bolt" style="font-size: 2.5rem; color: #2ecc71;"></i>
+                        </div>
+                        <h3 style="color: #e6edf3; margin-bottom: 1rem;">Real-time Analysis</h3>
+                        <p style="color: #9aa7b4;">Get instant predictions with confidence scores for any message you submit</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div style="background: #e74c3c20; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                            <i class="fas fa-chart-bar" style="font-size: 2.5rem; color: #e74c3c;"></i>
+                        </div>
+                        <h3 style="color: #e6edf3; margin-bottom: 1rem;">Batch Processing</h3>
+                        <p style="color: #9aa7b4;">Upload CSV files with thousands of messages for bulk analysis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technology Stack -->
+        <div class="card mb-5">
+            <div class="card-body">
+                <h2 class="text-center mb-4" style="color: #e6edf3;">
+                    <i class="fas fa-cogs me-2" style="color: #2d7aff;"></i>
+                    Technology Stack
+                </h2>
+                
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div style="background: #0a0c10; border-radius: 10px; padding: 1.5rem;">
+                            <h4 style="color: #2d7aff; margin-bottom: 1rem;">Backend</h4>
+                            <ul style="color: #9aa7b4; list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle me-2" style="color: #2ecc71;"></i> Flask (Python Web Framework)</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle me-2" style="color: #2ecc71;"></i> Scikit-learn (Machine Learning)</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle me-2" style="color: #2ecc71;"></i> Pandas (Data Processing)</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle me-2" style="color: #2ecc71;"></i> Joblib (Model Persistence)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div style="background: #0a0c10; border-radius: 10px; padding: 1.5rem;">
+                            <h4 style="color: #2d7aff; margin-bottom: 1rem;">Frontend</h4>
+                            <ul style="color: #9aa7b4; list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle me-2" style="color: #2ecc71;"></i> Bootstrap 5 (UI Framework)</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle me-2" style="color: #2ecc71;"></i> HTML5 / CSS3</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle me-2" style="color: #2ecc71;"></i> JavaScript (AJAX)</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle me-2" style="color: #2ecc71;"></i> Chart.js / Matplotlib</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="card mb-5">
+            <div class="card-body">
+                <h2 class="text-center mb-4" style="color: #e6edf3;">
+                    <i class="fas fa-code-branch me-2" style="color: #2d7aff;"></i>
+                    How It Works
+                </h2>
+                
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <div style="background: #2d7aff; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-weight: bold;">1</div>
+                            <h5 style="color: #e6edf3;">Preprocessing</h5>
+                            <p style="color: #9aa7b4;">Text is cleaned, lowercased, and punctuation removed</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <div style="background: #2d7aff; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-weight: bold;">2</div>
+                            <h5 style="color: #e6edf3;">Vectorization</h5>
+                            <p style="color: #9aa7b4;">TF-IDF converts text to numerical features</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <div style="background: #2d7aff; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-weight: bold;">3</div>
+                            <h5 style="color: #e6edf3;">Classification</h5>
+                            <p style="color: #9aa7b4;">Naive Bayes algorithm predicts spam/ham</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <div style="background: #2d7aff; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; font-weight: bold;">4</div>
+                            <h5 style="color: #e6edf3;">Result</h5>
+                            <p style="color: #9aa7b4;">Instant prediction with confidence score</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dataset Information -->
+        <div class="card">
+            <div class="card-body">
+                <h2 class="text-center mb-4" style="color: #e6edf3;">
+                    <i class="fas fa-database me-2" style="color: #2d7aff;"></i>
+                    Dataset Information
+                </h2>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <div style="background: #0a0c10; border-radius: 10px; padding: 1.5rem;">
+                            <h4 style="color: #2d7aff;">SMS Spam Collection</h4>
+                            <ul style="color: #9aa7b4; list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check me-2" style="color: #2ecc71;"></i> 5,574 SMS messages</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check me-2" style="color: #2ecc71;"></i> 747 spam messages (13.4%)</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check me-2" style="color: #2ecc71;"></i> 4,827 ham messages (86.6%)</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check me-2" style="color: #2ecc71;"></i> Real-world SMS collection</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div style="background: #0a0c10; border-radius: 10px; padding: 1.5rem;">
+                            <h4 style="color: #2d7aff;">Model Performance</h4>
+                            <ul style="color: #9aa7b4; list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px;"><i class="fas fa-star me-2" style="color: #f39c12;"></i> Accuracy: 98%</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-star me-2" style="color: #f39c12;"></i> Precision: 98%</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-star me-2" style="color: #f39c12;"></i> Recall: 97%</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-star me-2" style="color: #f39c12;"></i> F1-Score: 97%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-4">
+                    <a href="/" class="btn btn-primary">
+                        <i class="fas fa-play me-2"></i>
+                        Try It Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

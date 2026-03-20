@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+{% block title %}Batch Processing - Spam Detector{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center animate__animated animate__fadeIn">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title text-center">
+                    <i class="fas fa-cloud-upload-alt me-3"></i>
+                    Batch Processing
+                </h1>
+                
+                <p class="text-center mb-4" style="color: #e6edf3; font-size: 1.1rem;">
+                    Upload a CSV file with multiple messages to analyze them all at once
+                </p>
+
+                <!-- Instructions Card -->
+                <div class="alert" style="background: #0a0c10; border-left: 4px solid #2d7aff; color: #e6edf3; margin-bottom: 2rem;">
+                    <h5 style="color: #2d7aff; margin-bottom: 1rem;">
+                        <i class="fas fa-info-circle me-2"></i>
+                        Instructions
+                    </h5>
+                    <ul style="color: #9aa7b4; line-height: 1.8;">
+                        <li>Your CSV file must have a column named <strong style="color: #2d7aff;">"message"</strong></li>
+                        <li>Each row should contain one message to analyze</li>
+                        <li>Maximum file size: 10MB</li>
+                        <li>The system will add prediction and confidence columns</li>
+                    </ul>
+                </div>
+
+                <!-- CSV Format Example -->
+                <div class="mb-4" style="background: #0a0c10; border-radius: 15px; padding: 1.5rem;">
+                    <h5 style="color: #2d7aff; margin-bottom: 1rem;">
+                        <i class="fas fa-file-csv me-2"></i>
+                        Expected CSV Format:
+                    </h5>
+                    <pre style="background: #1e2429; padding: 1rem; border-radius: 10px; color: #9aa7b4; border: 1px solid #2d3748;">
+message
+"Congratulations! You've won a prize!"
+"Hey, are we meeting today?"
+"URGENT: Your account needs verification"
+"Thanks for your email"</pre>
+                    
+                    <p class="mt-2" style="color: #9aa7b4;">
+                        <i class="fas fa-download me-2" style="color: #2d7aff;"></i>
+                        <a href="#" onclick="downloadSampleCSV()" style="color: #2d7aff; text-decoration: none;">
+                            Download sample CSV template
+                        </a>
+                    </p>
+                </div>
+
+                <!-- Upload Form -->
+                <form method="post" enctype="multipart/form-data" id="batchForm">
+                    <div class="mb-4">
+                        <label for="file" class="form-label" style="color: #e6edf3; font-weight: 500;">
+                            <i class="fas fa-file-upload me-2" style="color: #2d7aff;"></i>
+                            Select CSV File:
+                        </label>
+                        
+                        <!-- Custom File Upload -->
+                        <div class="file-upload-area" style="border: 2px dashed #2d3748; border-radius: 15px; padding: 2rem; text-align: center; background: #0a0c10; cursor: pointer; transition: all 0.3s ease;" onclick="document.getElementById('file').click()">
+                            <i class="fas fa-cloud-upload-alt" style="font-size: 3rem; color: #2d7aff; margin-bottom: 1rem;"></i>
+                            <p style="color: #e6edf3; margin-bottom: 0.5rem;">
+                                <strong>Click to upload</strong> or drag and drop
+                            </p>
+                            <p style="color: #9aa7b4; font-size: 0.9rem;">
+                                Supported format: .csv (max 10MB)
+                            </p>
+                            <input 
+                                type="file" 
+                                id="file" 
+                                name="file" 
+                                accept=".csv" 
+                                style="display: none;" 
+                                onchange="updateFileName(this)"
+                                required
+                            >
+                        </div>
+                        
+                        <!-- File Preview -->
+                        <div id="filePreview" class="mt-3" style="display: none;">
+                            <div style="background: #1e2429; border-radius: 10px; padding: 1rem; border: 1px solid #2d7aff;">
+                                <i class="fas fa-check-circle" style="color: #2ecc71; margin-right: 10px;"></i>
+                                <span style="color: #e6edf3;" id="fileName"></span>
+                                <span style="color: #9aa7b4; margin-left: 10px;" id="fileSize"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100" id="uploadBtn">
+                        <i class="fas fa-cogs me-2"></i>
+                        Process Batch
+                    </button>
+                </form>
+
+                <!-- Loading Spinner -->
+                <div id="loading" class="text-center" style="display: none; margin-top: 2rem;">
+                    <div class="spinner"></div>
+                    <p class="mt-3" style="color: #9aa7b4;">Processing your messages...</p>
+                    <p style="color: #9aa7b4; font-size: 0.9rem;">This may take a few seconds</p>
+                </div>
+
+                <!-- Results Preview (if any) -->
+                {% if results %}
+                <div class="mt-5" id="results">
+                    <h4 style="color: #e6edf3; margin-bottom: 1rem;">
+                        <i class="fas fa-chart-bar me-2" style="color: #2d7aff;"></i>
+                        Processing Complete!
+                    </h4>
+                    
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-4">
+                            <div class="stat-card" style="background: #0a0c10; border: 1px solid #2d3748;">
+                                <div class="stat-number" style="color: #2d7aff;">{{ results.total }}</div>
+                                <div class="stat-label" style="color: #9aa7b4;">Total Messages</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="stat-card" style="background: #0a0c10; border: 1px solid #2d3748;">
+                                <div class="stat-number" style="color: #e74c3c;">{{ results.spam }}</div>
+                                <div class="stat-label" style="color: #9aa7b4;">Spam Detected</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="stat-card" style="background: #0a0c10; border: 1px solid #2d3748;">
+                                <div class="stat-number" style="color: #2ecc71;">{{ results.ham }}</div>
+                                <div class="stat-label" style="color: #9aa7b4;">Legitimate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function updateFileName(input) {
+    if (input.files && input.files[0]) {
+        const file = input.files[0];
+        document.getElementById('fileName').textContent = file.name;
+        document.getElementById('fileSize').textContent = `(${(file.size / 1024).toFixed(2)} KB)`;
+        document.getElementById('filePreview').style.display = 'block';
+        
+        // Change upload area style
+        document.querySelector('.file-upload-area').style.borderColor = '#2d7aff';
+        document.querySelector('.file-upload-area').style.background = '#1e2429';
+    }
+}
+
+function downloadSampleCSV() {
+    const csvContent = "message\n\"Congratulations! You've won a prize!\"\n\"Hey, are we meeting today?\"\n\"URGENT: Your account needs verification\"\n\"Thanks for your email\"";
+    const blob = new Blob([csvContent], { type: 'text/csv' });
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'sample_messages.csv';
+    a.click();
+}
+
+// Handle form submission
+document.getElementById('batchForm').addEventListener('submit', function(e) {
+    const fileInput = document.getElementById('file');
+    if (!fileInput.files || !fileInput.files[0]) {
+        e.preventDefault();
+        alert('Please select a file to upload');
+        return;
+    }
+    
+    // Show loading
+    document.getElementById('uploadBtn').disabled = true;
+    document.getElementById('uploadBtn').innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Processing...';
+    document.getElementById('loading').style.display = 'block';
+});
+
+// Drag and drop functionality
+const dropArea = document.querySelector('.file-upload-area');
+
+['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+    dropArea.addEventListener(eventName, preventDefaults, false);
+});
+
+function preventDefaults(e) {
+    e.preventDefault();
+    e.stopPropagation();
+}
+
+['dragenter', 'dragover'].forEach(eventName => {
+    dropArea.addEventListener(eventName, highlight, false);
+});
+
+['dragleave', 'drop'].forEach(eventName => {
+    dropArea.addEventListener(eventName, unhighlight, false);
+});
+
+function highlight() {
+    dropArea.style.borderColor = '#2d7aff';
+    dropArea.style.background = '#1e2429';
+}
+
+function unhighlight() {
+    dropArea.style.borderColor = '#2d3748';
+    dropArea.style.background = '#0a0c10';
+}
+
+dropArea.addEventListener('drop', handleDrop, false);
+
+function handleDrop(e) {
+    const dt = e.dataTransfer;
+    const files = dt.files;
+    document.getElementById('file').files = files;
+    updateFileName(document.getElementById('file'));
+}
+</script>
+{% endblock %}
